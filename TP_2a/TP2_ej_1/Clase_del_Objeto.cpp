@@ -51,11 +51,9 @@ Clase_del_Objeto::Clase_del_Objeto(int x, int y, int z) {
     this->coord_z = z;
     
     this->distancia = 0;
-    
-    this->direccion.reserve(2);
-    
-    this->direccion[0] = 1;
-    this->direccion[1] = 0;
+        
+    this->direccion.push_back(1);
+    this->direccion.push_back(0);
     
 }
 
@@ -115,7 +113,7 @@ void Clase_del_Objeto::doblar(int hacia){
         int aux_y = this->direccion[1];
 
         this->direccion[0] = aux_y; 
-        this->direccion[1] = -aux_x;   
+        this->direccion[1] = -aux_x;
         
         this->agregarHistorial("GIRO_DER");
         
@@ -147,7 +145,7 @@ void Clase_del_Objeto::cambiar_nivel(int hacia){
         
     } else if (hacia == ABAJO){
         
-        this->setCoord_z(this->getCoord_z() + 1);
+        this->setCoord_z(this->getCoord_z() - 1);
         this->agregarHistorial("ABAJO");
     
     }

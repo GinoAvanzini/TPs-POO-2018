@@ -94,7 +94,6 @@ int main(int argc, char** argv) {
     auto finish = chrono::high_resolution_clock::now();
     objeto->agregarHistorial("DETENCION");
     
-    
     for(int i = 0; i < cont; i++){
         cout << objeto->getHistorial(i) << endl;
     }
