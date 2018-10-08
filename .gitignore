@@ -1,7 +1,6 @@
 # Archivo en el cual especificamos aquellos archivos o carpetas que no queremos que sean trackeadas en el repo local ni se 
 # sincronicen con repo remoto
 
-
 TP_1/build
 TP_1/dist
 
