@@ -3,9 +3,17 @@
 
 TP_1/build
 TP_1/dist
+TP_1/nbproject
+TP_1/makefile
 
 TP_2a/TP2_ej_1/build
 TP_2a/TP2_ej_1/dist
+TP_2a/TP2_ej_1/nbproject
+TP_2a/TP2_ej_1/makefile
 
 TP_2a/TP2_ej_2/build
 TP_2a/TP2_ej_2/dist
+TP_2a/TP2_ej_2/nbproject
+TP_2a/TP2_ej_2/makefile
+
+.directory
